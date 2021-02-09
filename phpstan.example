@@ -1,3 +1,2 @@
 includes:
   - vendor/real420og/phpstan-config/general-extension.neon
-#  - vendor/real420og/phpstan-config/phpunit-extension.neon
