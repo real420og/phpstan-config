@@ -17,7 +17,6 @@ parameters:
         reportUnusedCatchesOfUncheckedExceptions: false
         reportUnusedCheckedThrowsInSubtypes: false
         reportCheckedThrowsInGlobalScope: true
-        ignoreDescriptiveUncheckedExceptions: false
         checkedExceptions: []
         uncheckedExceptions: []
         methodThrowTypeDeclarations: []
@@ -29,7 +28,6 @@ parametersSchema:
         reportUnusedCatchesOfUncheckedExceptions: bool()
         reportUnusedCheckedThrowsInSubtypes: bool()
         reportCheckedThrowsInGlobalScope: bool()
-        ignoreDescriptiveUncheckedExceptions: bool()
         checkedExceptions: listOf(string())
         uncheckedExceptions: listOf(string())
         methodThrowTypeDeclarations: arrayOf(arrayOf(listOf(string())))
