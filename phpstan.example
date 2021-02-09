@@ -1,0 +1,3 @@
+includes:
+  - vendor/real420og/phpstan-rules/general-extension.neon
+#  - vendor/real420og/phpstan-rules/phpunit-extension.neon
