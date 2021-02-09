@@ -159,7 +159,6 @@ services:
             reportUnusedCatchesOfUncheckedExceptions: %exceptionRules.reportUnusedCatchesOfUncheckedExceptions%
             reportUnusedCheckedThrowsInSubtypes: %exceptionRules.reportUnusedCheckedThrowsInSubtypes%
             reportCheckedThrowsInGlobalScope: %exceptionRules.reportCheckedThrowsInGlobalScope%
-            ignoreDescriptiveUncheckedExceptions: %exceptionRules.ignoreDescriptiveUncheckedExceptions%
             methodWhitelist: %exceptionRules.methodWhitelist%
         tags: [phpstan.rules.rule]
 
